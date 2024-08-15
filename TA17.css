@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: bisque;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.img{
+    border-radius: 50%;
+    position: absolute;
+    max-width: 170px;
+    transform: translateX(-50%) translateY(-50px);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
